@@ -203,6 +203,14 @@
     <Compile Include="Migrations\201712152339322_addingGig_table.Designer.cs">
       <DependentUpon>201712152339322_addingGig_table.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201712180805415_Addedcoventions.cs" />
+    <Compile Include="Migrations\201712180805415_Addedcoventions.Designer.cs">
+      <DependentUpon>201712180805415_Addedcoventions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201712180824235_AddingDateGenreData.cs" />
+    <Compile Include="Migrations\201712180824235_AddingDateGenreData.Designer.cs">
+      <DependentUpon>201712180824235_AddingDateGenreData.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -293,6 +301,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201712152339322_addingGig_table.resx">
       <DependentUpon>201712152339322_addingGig_table.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201712180805415_Addedcoventions.resx">
+      <DependentUpon>201712180805415_Addedcoventions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201712180824235_AddingDateGenreData.resx">
+      <DependentUpon>201712180824235_AddingDateGenreData.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
