@@ -212,6 +212,14 @@
     <Compile Include="Migrations\201712180824235_AddingDateGenreData.Designer.cs">
       <DependentUpon>201712180824235_AddingDateGenreData.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201712190543478_CleanCode.cs" />
+    <Compile Include="Migrations\201712190543478_CleanCode.Designer.cs">
+      <DependentUpon>201712190543478_CleanCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201712190611177_AddingFK.cs" />
+    <Compile Include="Migrations\201712190611177_AddingFK.Designer.cs">
+      <DependentUpon>201712190611177_AddingFK.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -310,6 +318,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201712180824235_AddingDateGenreData.resx">
       <DependentUpon>201712180824235_AddingDateGenreData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201712190543478_CleanCode.resx">
+      <DependentUpon>201712190543478_CleanCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201712190611177_AddingFK.resx">
+      <DependentUpon>201712190611177_AddingFK.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
