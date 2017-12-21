@@ -220,6 +220,10 @@
     <Compile Include="Migrations\201712190611177_AddingFK.Designer.cs">
       <DependentUpon>201712190611177_AddingFK.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201712210446556_Added_UserName_ApplicationUser.cs" />
+    <Compile Include="Migrations\201712210446556_Added_UserName_ApplicationUser.Designer.cs">
+      <DependentUpon>201712210446556_Added_UserName_ApplicationUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -326,6 +330,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201712190611177_AddingFK.resx">
       <DependentUpon>201712190611177_AddingFK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201712210446556_Added_UserName_ApplicationUser.resx">
+      <DependentUpon>201712210446556_Added_UserName_ApplicationUser.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
