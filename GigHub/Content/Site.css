@@ -27,6 +27,23 @@ span.field-validation-error {
     color: red;
     font-weight: bold;
 }
+
+.vOffset{margin-top:2px;}
+.vOffset1 {
+    margin-top: 5px;
+}
+.vOffset2 {
+    margin-top: 10px;
+}
+.vOffset3 {
+    margin-top: 20px;
+}
+.vOffset4 {
+    margin-top: 40px;
+}
+.vOffset5 {
+    margin-top: 80px;
+}
 /*Bootstrap Overrides*/
 .navbar-inverse {
     background-color: #ff4342;
@@ -100,6 +117,7 @@ h6,
 /*Page level styles*/
 .gigs{
     list-style:none;
+    padding-top:50px;
 }
 .gigs > li{
     position:relative;
